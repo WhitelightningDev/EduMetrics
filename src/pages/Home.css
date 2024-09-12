@@ -1,0 +1,27 @@
+/* Styling for the Sidebar Menu */
+
+/* Adjust responsive design as necessary */
+@media screen and (max-width: 768px) {
+  #main-content {
+    margin-left: 0; /* Reset margin on smaller screens */
+  }
+}
+
+/* Styling for the Sidebar Menu */
+ion-menu {
+  --background: #08203f; /* Dark background color */
+}
+
+ion-menu ion-toolbar {
+  --background: #34495e; /* Slightly lighter background for the toolbar */
+  color: #ecf0f1; /* Light text color */
+  text-align: center; /* Center the menu title */
+}
+
+ion-item {
+  --background: transparent;
+  color: #1f7286; /* Light text color */
+  font-size: 18px;
+  padding: 15px 20px; /* Adjust padding for better spacing */
+  transition: background 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
