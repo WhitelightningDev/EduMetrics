@@ -1,0 +1,7 @@
+{
+  "name": "EduMetrics",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
